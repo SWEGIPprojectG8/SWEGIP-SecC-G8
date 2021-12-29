@@ -1,0 +1,58 @@
+<!doctype html>
+  <html>
+   <head>
+    <meta charset="utf-8">
+    <title>Contact us</title>
+  </head>
+   <body>
+    <div  style="color:blue"id="contactus">
+   <h1>CONTACT US</h1>
+   <form>
+    <label for="query">
+    Type of query
+     </label>
+    <select name="myquery" id="query">
+    <option value="sel" selected>
+     select
+  </option>
+   <option value="ord">
+     order related items
+  </option>
+   <option value="site">
+     site related items
+   </option>
+   <option value="other">
+   other
+    </option>
+   </select><br>
+   </div>
+   <div  style="color:blue" class="form shape"><br>
+   <lable for="name">Name</label>
+    <input type="text" name="my name" id="name" placeholder="Enter Your Name">
+   </div>
+    
+   </div>
+   <div  style="color:blue" class="form shape"><br>
+   <lable for="email">Email</label>
+    <input type="email" name="myemail" id="email" placeholder="Enter Your email">
+   </div>
+    
+   </div>
+   <div  style="color:blue" class="form shape"><br>
+   <lable for="phone number">phone number</label>
+    <input type="phone number" name="myphone number" id="phone number" placeholder="Enter Your phone number">
+   </div>
+  
+  <div class="form-shape">
+   <label for="message">
+    write your comment here
+ </label>
+   <textarea name="mesg" id="message"
+     cols="30" rows="10">
+    </textarea>
+   </div><br/>
+   <input type="submit" value="submit">
+  <input type="reset" value="reset">
+  </form>
+    </body>
+</html
