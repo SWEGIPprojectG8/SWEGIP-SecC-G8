@@ -1,1 +1,0 @@
-# SWEGIP-SecC-G8
